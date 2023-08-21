@@ -1,0 +1,17 @@
+[
+  {
+    "origin": [
+      "https://omega-dahlia-395309.appspot.com",
+      "https://omega-dahlia-395309.com"
+    ],
+    "responseHeader": [
+      "Origin",
+      "X-Requested-With",
+      "Content-Type",
+      "Accept",
+      "X-PINGOTHER"
+    ],
+    "method": ["GET", "POST", "OPTIONS"],
+    "maxAgeSeconds": 3600
+  }
+]
