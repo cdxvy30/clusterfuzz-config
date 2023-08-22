@@ -75,7 +75,7 @@ omega-dahlia-395309:
 
   instance_templates:
     - name: clusterfuzz-linux
-      description: '{"version": 3}'
+      description: '{"version": 4}'
       properties:
         machineType: n1-standard-1
         disks:
@@ -103,7 +103,7 @@ omega-dahlia-395309:
                 name: 'External NAT'
 
     - name: clusterfuzz-linux-pre
-      description: '{"version": 3}'
+      description: '{"version": 4}'
       properties:
         machineType: n1-standard-1
         disks:
