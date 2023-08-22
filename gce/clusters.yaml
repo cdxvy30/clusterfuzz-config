@@ -25,7 +25,7 @@ omega-dahlia-395309:
     # Pre-emptible bots must have '-pre-' in name. They only run fuzzing tasks.
     clusterfuzz-linux-pre:
       gce_zone: us-central1-f  # Change to actual GCE zone (e.g. us-central1-a).
-      instance_count: 1   # Change to actual number of instances needed.
+      instance_count: 2   # Change to actual number of instances needed.
       instance_template: clusterfuzz-linux-pre
       distribute: False
 
@@ -75,7 +75,7 @@ omega-dahlia-395309:
 
   instance_templates:
     - name: clusterfuzz-linux
-      description: '{"version": 4}'
+      description: '{"version": 5}'
       properties:
         machineType: n1-standard-1
         disks:
@@ -103,7 +103,7 @@ omega-dahlia-395309:
                 name: 'External NAT'
 
     - name: clusterfuzz-linux-pre
-      description: '{"version": 4}'
+      description: '{"version": 5}'
       properties:
         machineType: n1-standard-1
         disks:
